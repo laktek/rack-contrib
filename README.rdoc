@@ -41,7 +41,7 @@ interface:
 * Rack::Backstage - Returns content of specified file if it exists, which makes
   it convenient for putting up maintenance pages.
 * Rack::Format - Adds a format extension at the end of the URI when there is none, corresponding to the mime-type given in the Accept HTTP header.
-
+* Rack::PriilegedSsl - Provides the option of serving SSL only for selected portion of subdomains (e.g. paid users). 
 === Use
 
 Git is the quickest way to the rack-contrib sources:

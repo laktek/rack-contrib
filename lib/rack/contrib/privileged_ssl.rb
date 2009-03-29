@@ -1,5 +1,5 @@
 module Rack
-  # Provides the option of serving SSL only for selected portion of subdomains (i.e. paid users).
+  # Provides the option of serving SSL only for selected portion of subdomains (e.g. paid users only).
   # Other requests will be redirected to use standard HTTP.
   # Initialize with an array of privileged subdomains.  
   
